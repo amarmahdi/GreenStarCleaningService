@@ -1,0 +1,40 @@
+@media screen and (min-width: 1024px) {
+  .c-sec {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: none;
+    position: relative;
+  }
+
+  .contact-info {
+    background: none;
+  }
+
+  .img-container {
+    width: 100%;
+    height: 496px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 32px;
+    /* make the object-position a little bit to the top */
+    object-position: 50% 0;
+  }
+
+  .contact-info-btn {
+    z-index: 0;
+  }
+}

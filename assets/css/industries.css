@@ -1,0 +1,583 @@
+.ind {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.industries-we-serve-section,
+.industries-we-serve-section * {
+  box-sizing: border-box;
+}
+.industries-we-serve-section {
+  padding: 80px 110px 40px 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+}
+.services-headline {
+  display: flex;
+  flex-direction: column;
+  gap: 14.8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 770px;
+  position: relative;
+}
+.heading-2 {
+  padding: 0px 0px 0.38px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.industries-we-serve {
+  color: #244034;
+  text-align: center;
+  font: 600 36px "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  flex-wrap: wrap;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.body {
+  background: #d4e4cb;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.icon {
+  background: #d2f34c;
+  border-radius: 500px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 92px;
+  position: relative;
+  overflow: hidden;
+}
+.bold-duotone-building-infrastructure-city {
+  border-radius: 3px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.content {
+  padding: 0px 0px 0.78px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 306px;
+  position: relative;
+}
+.industrial {
+  color: #244034;
+  text-align: left;
+  font: 700 23px/33.6px "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.heavy-industries-light-industries-and-commercial-industries {
+  color: #4d5f4b;
+  text-align: center;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.get-started-now {
+  color: #244034;
+  text-align: center;
+  font: 600 16px/27.2px "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-arrows-square-arrow-right {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+/* .container3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+} */
+.body2 {
+  background: #d4e4cb;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 369.78px;
+  position: relative;
+}
+.bold-duotone-building-infrastructure-buildings {
+  border-radius: 3px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.institutional {
+  color: #244034;
+  text-align: left;
+  font: 700 23px/33.6px "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+.bold-duotone-arrows-square-arrow-right2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.bold-duotone-building-infrastructure-home {
+  border-radius: 3px;
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.residential {
+  color: #244034;
+  text-align: left;
+  font: 700 23px/33.6px "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.single-residential-multi-family-residentials {
+  color: #4d5f4b;
+  text-align: center;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-arrows-square-arrow-right3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.cl-sec {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice-section,
+.choice-section * {
+  box-sizing: border-box;
+}
+.choice-section {
+    margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+}
+.hero {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.who-are-our-clients {
+  color: #597b47;
+  text-align: center;
+  font: 700 32px/132% "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 70px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.supporting-text {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.we-understand-that-our-clients-are-looking-for-trustworthy-professional-cleaning-services-that-meet-their-specific-needs-and-requirements-our-well-trained-cleaning-staff-adheres-to-strict-cleaning-protocols-ensuring-a-sparkling-clean-environment-for-them-our-focus-on-building-strong-relationships-with-our-clients-has-played-a-crucial-role-in-our-growth-and-success-in-the-cleaning-industry {
+  color: #40434e;
+  text-align: center;
+  font: 400 18px/27px "Montserrat", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jobs {
+  padding: 60px 0px 60px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.ind-header {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.bold-duotone-astronomy-star-circle {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.commercial-offices {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle2 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.medical-centre-s {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle3 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.dental-clinics {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle4 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.health-wellness-clinics {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle5 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.sport-centers-arenas {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle6 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.property-management {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle7 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.construction-office-trailers {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle8 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.construction-offices {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle9 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.facility-management {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle10 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.manufacturing {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle11 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.industrial-shops {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle12 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.industrial-warehouse {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle13 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.retail {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle14 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.auto-dealership {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle15 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.schools {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bold-duotone-astronomy-star-circle16 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.libraries {
+  color: #070707;
+  text-align: center;
+  font: 700 24px/132% "Montserrat", sans-serif;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

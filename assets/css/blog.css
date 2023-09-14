@@ -1,0 +1,227 @@
+.blogs,
+.blogs * {
+  box-sizing: border-box;
+}
+.blogs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  margin-top: 200px;
+}
+.content {
+  background: #ffffff;
+  border-radius: 32px;
+  flex-shrink: 0;
+  width: 1170px;
+  height: 570px;
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  border-radius: 32px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.background {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  border-radius: 32px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.container {
+  flex-shrink: 0;
+  width: 1170px;
+  height: 1597px;
+  position: relative;
+}
+.title {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 353px;
+  position: absolute;
+  left: 0px;
+  top: 12.5px;
+}
+.heading-2 {
+  padding: 0px 0px 0.38px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.moving-out-made-easy-discover-the-best-move-out-cleaning-services-edmonton {
+  color: #070707;
+  text-align: left;
+  font: 600 28px/132% "Montserrat", sans-serif;
+  position: relative;
+  width: 353px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title2 {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1170px;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 910.5px;
+}
+.heading-22 {
+  padding: 0px 0px 0.38px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.why-choose-greenstar-cleaning-service-ltd {
+  color: #070707;
+  text-align: left;
+  font: 600 28px/132% "Montserrat", sans-serif;
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a-cozy-home-begins-with-a-well-functioning-furnace-but-did-you-know-that-regular-furnace-cleaning-is-not-just-about-keeping-your-house-warm-it-s-also-about-ensuring-the-air-you-and-your-family-breathe-is-clean-and-healthy-if-you-re-in-edmonton-and-seeking-professional-furnace-cleaning-services-you-ve-come-to-the-right-place-in-this-guide-we-ll-delve-into-the-importance-of-furnace-cleaning-its-benefits-and-how-greenstar-cleaning-service-ltd-can-help-you-maintain-a-safe-and-comfortable-indoor-environment {
+  color: #40434e;
+  text-align: left;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: 400px;
+  top: 14.5px;
+  width: 770px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.experienced-technicians-our-skilled-technicians-are-trained-to-clean-and-maintain-a-variety-of-furnace-systems-ensuring-thorough-and-reliable-service-advanced-equipment-we-utilize-advanced-cleaning-equipment-to-remove-dust-debris-and-contaminants-from-your-furnace-and-ducts-safety-first-we-prioritize-safety-during-our-cleaning-process-ensuring-a-secure-and-effective-cleaning-experience-prompt-service-we-respect-your-time-our-team-arrives-promptly-and-completes-the-cleaning-efficiently-minimizing-disruption-to-your-routine-transparent-pricing-at-greenstar-we-believe-in-clarity-our-pricing-is-transparent-with-no-hidden-fees-you-ll-know-exactly-what-you-re-paying-for-ensuring-peace-of-mind-licensed-and-insured-we-are-a-licensed-and-insured-cleaning-service-giving-you-confidence-in-our-professionalism-and-commitment-to-delivering-reliable-and-trustworthy-service-customer-centric-approach-your-satisfaction-is-our-priority-we-listen-to-your-preferences-and-tailor-our-cleaning-services-to-meet-your-specific-needs-ensuring-you-re-delighted-with-the-results-flexible-scheduling-we-understand-your-busy-life-our-flexible-scheduling-options-make-it-convenient-for-you-to-choose-the-time-that-suits-you-best-for-our-cleaning-services-ongoing-maintenance-plans-we-offer-ongoing-maintenance-plans-to-keep-your-home-consistently-clean-and-well-maintained-our-regular-cleaning-services-help-you-enjoy-a-hassle-free-spotless-home-locally-owned-and-operated-as-a-local-business-we-are-deeply-connected-to-the-edmonton-community-when-you-choose-greenstar-you-re-supporting-a-local-company-dedicated-to-serving-its-neighbors {
+  color: #40434e;
+  text-align: left;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 947.5px;
+  width: 1170px;
+  height: 475px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.your-furnace-does-more-than-generate-heat-it-circulates-air-throughout-your-home-over-time-dust-debris-and-allergens-can-accumulate-in-your-furnace-reducing-its-efficiency-and-compromising-indoor-air-quality-regular-furnace-cleaning-not-only-enhances-heating-performance-but-also-safeguards-your-family-s-health-by-preventing-the-circulation-of-airborne-pollutants {
+  color: #40434e;
+  text-align: left;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 260px;
+  width: 1170px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.efficiency-boost-a-clean-furnace-operates-more-efficiently-which-can-translate-into-energy-savings-on-your-utility-bills-healthier-air-quality-clean-air-ducts-mean-cleaner-air-regular-furnace-cleaning-reduces-allergens-and-irritants-in-the-air-benefiting-family-members-with-respiratory-sensitivities-extended-equipment-life-routine-cleaning-extends-the-lifespan-of-your-furnace-protecting-your-investment-and-preventing-premature-breakdowns-carbon-monoxide-safety-a-well-maintained-furnace-reduces-the-risk-of-carbon-monoxide-leaks-ensuring-your-family-s-safety {
+  color: #40434e;
+  text-align: left;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 456px;
+  width: 1170px;
+  height: 181px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.at-greenstar-cleaning-service-ltd-we-specialize-in-delivering-top-quality-furnace-cleaning-services-in-edmonton-our-dedicated-team-understands-the-significance-of-a-clean-and-efficient-furnace-in-your-home-we-re-here-to-ensure-your-furnace-operates-optimally-providing-warmth-and-safety-for-you-and-your-loved-ones {
+  color: #40434e;
+  text-align: left;
+  font: 400 16px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 709px;
+  width: 1170px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.a-clean-furnace-is-the-key-to-a-comfortable-and-healthy-home-greenstar-cleaning-service-ltd-is-your-partner-in-maintaining-a-well-functioning-and-efficient-furnace-contact-us-today-to-experience-the-benefits-of-a-clean-furnace-and-enjoy-cleaner-air-and-enhanced-indoor-comfort {
+  color: #40434e;
+  text-align: left;
+  font: 500 20px/150% "Montserrat", sans-serif;
+  position: absolute;
+  left: calc(50% - 585px);
+  top: 1466.5px;
+  width: 1170px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.why-furnace-cleaning-matters {
+  color: #070707;
+  text-align: center;
+  font: 500 20px/28px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the-benefits-of-professional-furnace-cleaning {
+  color: #070707;
+  text-align: center;
+  font: 500 20px/28px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 428px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.introducing-greenstar-cleaning-service-ltd {
+  color: #070707;
+  text-align: center;
+  font: 500 20px/28px "Montserrat", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 681px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

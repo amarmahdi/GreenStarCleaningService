@@ -1,0 +1,339 @@
+.form-container {
+  background-color: #fff;
+  width: 80%;
+  padding: 40px;
+  border-radius: 32px;
+}
+
+.forms {
+  display: flex;
+  width: 100%;
+}
+
+.forms form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 48%;
+}
+
+.input input {
+  width: 100%;
+}
+
+.msg {  
+  position: absolute;
+  top: 200px;
+  width: 100%;
+}
+
+.details,
+.details * {
+  box-sizing: border-box;
+}
+.details {
+  padding: 0px 12px 12px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.forms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1;
+  position: relative;
+}
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 48%;
+  margin-bottom: 40px;
+}
+.text-input2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 100%;
+  position: relative;
+}
+.label {
+  color: #40434e;
+  text-align: left;
+  font: 500 16px/112% "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-content {
+  background: #f4f4f9;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: rgba(244, 244, 249, 0.6);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.left-icon {
+  flex-shrink: 0;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.base {
+  background: #597b47;
+  border-radius: 0px 2px 2px 2px;
+  width: 3.75px;
+  height: 3.75px;
+  position: absolute;
+  left: 3.12px;
+  top: 3.12px;
+}
+.base2 {
+  background: #597b47;
+  border-radius: 2px 2px 2px 0px;
+  width: 3.75px;
+  height: 3.75px;
+  position: absolute;
+  left: 3.12px;
+  top: 8.12px;
+}
+.base3 {
+  background: #597b47;
+  border-radius: 2px 0px 2px 2px;
+  width: 3.75px;
+  height: 3.75px;
+  position: absolute;
+  left: 8.12px;
+  top: 3.12px;
+}
+.base4 {
+  background: #597b47;
+  border-radius: 2px 2px 0px 2px;
+  width: 3.75px;
+  height: 3.75px;
+  position: absolute;
+  left: 8.12px;
+  top: 8.12px;
+}
+.placeholder-value {
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.value {
+  color: #070707;
+  text-align: left;
+  font: 600 14px/22px "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-input3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.input-content2 {
+  background: #f4f4f9;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: rgba(244, 244, 249, 0.8);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.enter-your-middle-name {
+  color: linear-gradient(to left, rgba(64, 67, 78, 0.8), rgba(64, 67, 78, 0.8)),
+    linear-gradient(to left, rgba(212, 228, 203, 0.2), rgba(212, 228, 203, 0.2));
+  text-align: left;
+  font: 400 14px/22px "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.enter-your-last-name {
+  color: linear-gradient(to left, rgba(64, 67, 78, 0.8), rgba(64, 67, 78, 0.8)),
+    linear-gradient(to left, rgba(212, 228, 203, 0.2), rgba(212, 228, 203, 0.2));
+  text-align: left;
+  font: 400 14px/22px "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.value2 {
+  color: linear-gradient(to left, rgba(64, 67, 78, 0.8), rgba(64, 67, 78, 0.8)),
+    linear-gradient(to left, rgba(212, 228, 203, 0.2), rgba(212, 228, 203, 0.2));
+  text-align: left;
+  font: 400 14px/22px "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-content3 {
+  background: #f4f4f9;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: rgba(234, 230, 229, 0.8);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.placeholder {
+  color: linear-gradient(to left, rgba(64, 67, 78, 0.8), rgba(64, 67, 78, 0.8)),
+    linear-gradient(to left, rgba(212, 228, 203, 0.2), rgba(212, 228, 203, 0.2));
+  text-align: left;
+  font: 400 14px/116% "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.linear-arrows-alt-arrow-down {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.text-input4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  width: 100%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.input-content4 {
+  background: #f4f4f9;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: rgba(244, 244, 249, 0.6);
+  border-width: 1px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 95px;
+  position: relative;
+}
+.message-box {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.please-describe-in-details-of-anything-you-want-to-add {
+  color: linear-gradient(to left, rgba(64, 67, 78, 0.8), rgba(64, 67, 78, 0.8)),
+    linear-gradient(to left, rgba(212, 228, 203, 0.2), rgba(212, 228, 203, 0.2));
+  text-align: justified;
+  font: 400 12px/130% "Montserrat", sans-serif;
+  position: relative;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.placeholder-value > input {
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+
+.placeholder-value > input:focus {
+  outline: none;
+}
+
+.placeholder-value > textarea {
+  height: 100%;
+  border: none;
+  background: transparent;
+}
+
+.placeholder-value > textarea:focus {
+  outline: none;
+}
+
+/* get rid of the extender from textarea */
+.text-input4 textarea {
+  resize: none;
+}
